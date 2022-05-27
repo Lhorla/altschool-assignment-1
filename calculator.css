@@ -1,0 +1,201 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar styling */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #DBDFFD;
+  }
+  
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-links ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 12px;
+    position: relative;
+  }
+  
+  .nav-links ul li a {
+    text-decoration: none;
+    color: #646FD4;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .nav-links ul li a:hover {
+    color: #000;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #646FD4;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .logo a:hover {
+    color: #000;
+  }
+  
+  /* Table calculator styling */
+  .calculator1 {
+    background: #242F9B;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    min-height: 80vh;
+  }
+  
+  .calculator1 h2 {
+    margin: 0 0 20px 0;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #DBDFFD;
+  }
+  
+  .card {
+    padding: 10px;
+    border-radius: 16px;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background: #242F9B;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, 
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  
+  .display-box {
+    background: #DBDFFD;
+    border: solid #000 0.5px;
+    color: #000;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+  }
+  
+  .button {
+    background: #DBDFFD;
+    color: #242F9B;
+    font-weight: bold;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+  }
+  
+  .button:active {
+    background: #000;
+    color: #DBDFFD;
+  }
+  
+  /* Flex calculator styling */
+  .calculator2 {
+    background: #DBDFFD;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    min-height: 120vh;
+  }
+  
+  .calculator2 h2 {
+    margin: 0 0 20px 0;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #242F9B;
+  }
+  
+  .card2 {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background: #DBDFFD;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, 
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  
+  .display-box2 {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .empty-display {
+    background: #242F9B;
+    color: #000;
+    font-weight: bold;
+    border: solid black 0.5px;
+    width: 80%;
+    border-radius: 5px;
+    height: 35%;
+    outline: none;
+  }
+  
+  .button-display {
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    border: solid black 0.5px;
+    width: 20%;
+    border-radius: 5px;
+    height: 40%;
+    outline: none;
+  }
+  
+  .buttons{
+    width: 100%;
+    height: 35%;
+    position: relative;
+    top: -40px;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  
+  .buttons:active {
+    background: #DBDFFD;
+    color: #000;
+  }
+  
+  button{
+    flex: 1 25%;
+    padding: 15px;
+    font-size: 26px;
+    border-bottom: 10px;
+  } 
+  
+  .btn-number {
+    background-color: #242F9B;
+    font-weight: bold;
+    color: #DBDFFD;
+    border-radius: 10px;
+  }
+  
+  .btn-operator {
+    background-color: #242F9B;
+    font-weight: bold;
+    color: #DBDFFD;
+    border-radius: 10px;
+  }
+  
+  .btn-equals {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  

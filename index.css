@@ -1,0 +1,326 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+  hr{
+    border: solid #9BA3EB 10px;
+    border-bottom: none;
+    margin: 50px auto;
+    width: 90%;
+  }
+  
+  /* Nav styling */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #DBDFFD;
+  }
+  
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-links ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 12px;
+    position: relative;
+  }
+  
+  .nav-links ul li a {
+    text-decoration: none;
+    color: #646FD4;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .nav-links ul li a:hover {
+    color: #000;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #646FD4;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .logo a:hover {
+    color: #000;
+  }
+  
+  /* Header styling */
+  .header {
+    background: #DBDFFD;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  img {
+    border-radius: 100%;
+    max-height: 100%;
+  }
+  
+  .pic {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .intro {
+    width: 90%;
+    color: #242F9B;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .intro h2 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  
+  .intro p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 2;
+    padding: 10px;
+  }
+  
+  /* Qualification styling */
+  .education {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    background: #242F9B;
+    min-height: 210vh;
+    color: #fff;
+  }
+  
+  .education h2 {
+    margin: 0 0 20px 0;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #DBDFFD;
+  }
+  
+  .education ul li {
+    list-style-type: none;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 2;
+    padding: 10px;
+  }
+  
+  /* Contact styling */
+  .contact {
+    background: #DBDFFD;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    min-height: 120vh;
+    color: #ffffff;
+  }
+  
+  .contact h2 {
+    margin: 0 0 20px 0;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #242F9B;
+  }
+  
+  .wrapper {
+    border-radius: 5px;
+    background-color: #646FD4;
+    padding: 5px;
+    margin: 0 80px 5px 80px;
+  }
+  
+  label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  form {
+    margin-top: 15px;
+  }
+  
+  input[type=text], select, textarea {
+    width: 50%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  input[type=submit] {
+    background: #DBDFFD;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  input[type=submit]:hover {
+    background: #000;
+    color: #fff;
+  }
+  
+  
+  /* Login Page */
+  .login {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    background: #242F9B;
+    min-height: 80vh;
+    color: #ffffff;
+  }
+  
+  .login h2 {
+    margin: 0 0 20px 0;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #DBDFFD;
+  }
+  
+  input[type=password] {
+    width: 30%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .sub1 {
+    background: #DBDFFD;
+    color: #000;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 15px 0;
+  }
+  
+  .sub1:hover {
+    background: #000;
+    color: #fff;
+  }
+  
+  input[type=text].text1 {
+    width: 30%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+    margin-right: 20px;
+  }
+  
+  span a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  /* Register */
+  .register {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    background: #242F9B;
+    min-height: 80vh;
+    color: #ffffff;
+  }
+  
+  .register h2 {
+    margin: 0 0 20px 0;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #DBDFFD;
+  } 
+  
+  input[type=tel] {
+    width: 50%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .registerbtn {
+    background: #DBDFFD;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+    background: #000;
+    color: #fff;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  a {
+    color: #DBDFFD;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Footer styling */
+  footer {
+    display: block;
+    background: #242F9B;
+    width: 100%;
+    min-height: 10vh;
+    text-align: center;
+    padding-top: 5px;
+    color: #DBDFFD;
+    font-size: 20px;
+  }
